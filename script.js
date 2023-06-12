@@ -24,7 +24,7 @@ $('#n1').click(function(e){
 });
 
 $('#tech').click(function(e){
-    title = "Garota de Programa"
+    title = "Programadora"
     $('.card-main').addClass("hide");
     $('.card-tech').removeClass("hide");
 });
