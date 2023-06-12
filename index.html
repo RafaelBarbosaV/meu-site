@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>Dia dos namorados - Rabel</title>
+  <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/css/bootstrap.min.css'>
+<link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.8.2/css/all.min.css'><link rel="stylesheet" href="./style.css">
+
+</head>
+<body>
+<!-- partial:index.partial.html -->
+<div class="bg">
+  
+  <!-- Main Card -->
+  <div class="card card-main m-3">
+
+    <div class="card__content" id="card-0">
+      <i class="fas fa-heart"></i>
+      <div class="title">Programa do dia dos namorados</div>
+      <div class="btn btn-primary mt-5 font-weight-bold" id="start">Start</div>
+    </div>
+
+    <div class="card__content hide text-wrap" id="card-1">
+      <div class="title">Antes de começar sua jornada, como deseja ser chamada?</div>
+      <input class="name" type="text" placeholder="" /></label>
+      <div class="btn btn-primary my-5 font-weight-bold" id="next">Next</div>
+    </div>
+
+    <div class="card__content hide text-wrap" id="card-2">
+      <div class="title">Olá, <span class="jqValue">Bel... Aqui não tem bug</span>! <i class="fas fa-heart"></i></div>
+      <p class="text-justify mt-5">Parabéns! Você é digna e está pronta para iniciar esta quest que revela mensagens e pensamentos loucos do seu namorado. A partir de agora suas escolhas determinam a mensagem final. Que a sorte esteja ao seu favor.</p>
+      <img src="https://media.giphy.com/media/c35lTs1WBrqJW/giphy.gif">
+      <div class="btn btn-primary my-5 font-weight-bold" id="n1">Next</div>
+    </div>
+
+    <div class="card__content hide text-wrap" id="card-3">
+      <div class="title">Escolha um tema</div>
+      
+      <div class="mt-5">
+        <div class="btn mb-2 font-weight-bold" id="tech"><i class="fas fa-laptop-code"></i></div>
+        <div class="btn mb-2 font-weight-bold" id="games"><i class="fas fa-gamepad"></i></div>
+        <div class="btn mb-2 font-weight-bold" id="movies"><i class="fas fa-film"></i></div>
+        <div class="btn mb-2 font-weight-bold" id="music"><i class="fas fa-music"></i></div>
+        <div class="btn mb-2 font-weight-bold" id="gift"><i class="fas fa-gift"></i></div>
+      </div>  
+      
+    </div>
+
+  </div>
+
+  <!-- Tech Card -->
+  <div class="card card-tech hide m-3">
+
+    <div class="card__content text-wrap" id="card-tech-0">
+      <div class="title">Vamos Programar!</div>
+      <p class="text-justify mt-5">Que escolha interessante. Você desbloqueou o título: Garota de Programa. Não vejo a hora de descobrir suas habilidades.</p>
+      <img src="https://thumbs.gfycat.com/ExaltedAccomplishedHornedtoad-size_restricted.gif">
+      <div class="btn btn-primary my-5 font-weight-bold" id="tech-n1">Next</div>
+    </div>
+    
+    <div class="card__content hide text-wrap" id="card-tech-1">
+      <div class="title text-highlight">Você é o CSS do meu HTML</div>
+      <div class="title">Escolha um navegador para te guiar:</div>
+
+      <div class="mt-5">
+        <div class="btn mb-2 font-weight-bold" id="chrome"><i class="fab fa-chrome"></i></i></div>
+        <div class="btn mb-2 font-weight-bold" id="firefox"><i class="fab fa-firefox"></i></div>
+        <div class="btn mb-2 font-weight-bold" id="safari"><i class="fab fa-safari"></i></div>
+        <div class="btn mb-2 font-weight-bold" id="ie"><i class="fab fa-internet-explorer"></i></div>
+      </div>  
+
+      <div class="btn btn-primary my-5 font-weight-bold" id="tech-n2">Next</div>
+    </div>
+    
+    <div class="card__content hide text-wrap" id="card-tech-2">
+      <div class="title text-highlight">Você é o ; que faltava no meu código</div>
+      <div class="text-center font-italic"><del>Ele está escrito em Python hahaha</del></div>
+      <div class="title">Com qual linguagem você vai lutar?</div>
+
+      <div class="mt-5">
+        <div class="btn mb-2 font-weight-bold" id="python"><i class="fab fa-python"></i></i></div>
+        <div class="btn mb-2 font-weight-bold" id="js"><i class="fab fa-js"></i></div>
+        <div class="btn mb-2 font-weight-bold" id="java"><i class="fab fa-java"></i></div>
+        <div class="btn mb-2 font-weight-bold" id="php"><i class="fab fa-php"></i></div>
+      </div>  
+
+      <div class="btn btn-primary my-5 font-weight-bold" id="tech-n3">Next</div>
+    </div>
+
+    <div class="card__content hide text-wrap" id="card-tech-3">
+      <div class="title text-highlight">Minha Dream Company é você</div>
+      <div class="title">Escolha uma empresa para definir um mapa</p></div>
+
+      <div class="mt-5">
+        <div class="btn mb-2 font-weight-bold" id="microsoft"><i class="fab fa-windows"></i></i></div>
+        <div class="btn mb-2 font-weight-bold" id="apple"><i class="fab fa-apple"></i></div>
+        <div class="btn mb-2 font-weight-bold" id="facebook"><i class="fab fa-facebook-square"></i></div>
+        <div class="btn mb-2 font-weight-bold" id="amazon"><i class="fab fa-amazon"></i></div>
+      </div>  
+
+      <div class="btn btn-primary my-5 font-weight-bold" id="tech-n4">Next</div>
+    </div>
+
+    <div class="card__content hide text-wrap" id="card-tech-4">
+      <div class="title">Já tenho as informações que precisava. Está pronta?</div>
+      <img src="https://media.giphy.com/media/2fQ1Gq3KOpvNs4NTmu/giphy.gif">
+      <div class="btn btn-primary my-5 font-weight-bold" id="tech-finish">Finish</div>
+    </div>
+    
+    <div class="card__content hide text-wrap" id="card-tech-5">
+      <div class="title"> Feliz dia dos namorados, Bel! <i class="fas fa-heart"></i></div>
+      <div></div>
+      <div class="tech text-justify">Error 404</div>
+    </div>
+    
+    
+    
+  </div>
+  
+  <!-- Games Card -->
+  <div class="card card-games hide m-3">
+
+    <div class="card__content text-wrap" id="card-games-0">
+      <div class="title">Dormir não da XP...</div>
+      <p class="text-justify mt-5">Bem-vinda, dominadora de titans no crash, exterminadora de zombies do left 4 dead, terror dos creepers no mine! É um prazer ter você aqui. Ótima escolha.</p>
+      <img src="https://uploads.spiritfanfiction.com/historias/capitulos/201412/fanfiction-5-seconds-of-summer-fireproof-2887434,221220140240.gif">
+      <div class="btn btn-primary my-5 font-weight-bold" id="games-n1">Next</div>
+    </div>
+    
+    <div class="card__content hide text-wrap" id="card-games-1">
+      <div class="title text-highlight">Eu pausaria meu jogo por você!</div>
+      <div class="title">Você é minha player 2 <i class="far fa-grin-hearts"></i></div>
+      <p class="text-justify mt-5">Não desenvolvi habilidades suficientes para desenvolver um jogo complexo mas tenho habilidades para desenvolver uma arte temática com uma mensagem pra você:</p>
+      <img src="https://i.imgur.com/pNxKtDY.png">
+    </div>
+  </div>
+
+  <!-- Movies Card -->
+  <div class="card card-movies hide m-3">
+
+    <div class="card__content text-wrap" id="card-movies-0">
+      <div class="title">Eu, Você, Pizza e Netflix</div>
+      <p class="text-justify mt-5">Bel, você escolheu o caminho de longas maratonas junto comigo. Espero que você não me decepcione como certas adaptações que chegaram nas telas dos cinemas e TV. Let's start!</p>
+      <img src="https://media.giphy.com/media/26BRzozg4TCBXv6QU/giphy.gif">
+      <div class="btn btn-primary my-5 font-weight-bold" id="movies-n1">Next</div>
+    </div>
+    
+    <div class="card__content hide text-wrap" id="card-movies-1">
+      <div class="title">“Às vezes, eu não acredito na sorte que eu tenho por você ter me escolhido.”</div>
+      <p class="text-justify mt-5">Você compartilha comigo o que você gosta, eu compartilho com você o que eu gosto, a gente vai descobrindo novas coisas que gostamos juntos e assim seguimos ao o infinito e além.</p>
+      <img src="https://64.media.tumblr.com/146f7687cf0f822d84e2a9fbaeea3f9a/9e2c8e88054e122e-ce/s500x750/505fab4e46c4af8f919cd4f98c0a385df70fccc1.gifv">
+      <div class="btn btn-primary my-5 font-weight-bold" id="movies-n2">Next</div>
+    </div>
+    
+    <div class="card__content hide text-wrap" id="card-movies-2">
+      <div class="title">Nosso pequeno infinito</div>
+      <p class="text-justify mt-5">“Existe uma quantidade infinita de números entre 0 e 1. Tem o 0,1 e o 0,12 e o 0,112 e uma infinidade de outros. Obviamente, existe um conjunto ainda maior entre o 0 e o 2, ou entre o 0 e o 1 milhão. Alguns infinitos são maiores que outros...." -John Green</p>
+      <p class="text-justify mt-3">Feliz dia dos namorados Bel! Nada me faz tão feliz quanto estar partilhando esse pequeno infinito com você.</p>
+      <img src="https://64.media.tumblr.com/tumblr_lwwc6hT45J1qjukxdo1_500.gifv">
+    </div>
+    
+  </div>
+
+  <!-- Music Card -->
+  <div class="card card-music hide m-3">
+
+    <div class="card__content text-wrap" id="card-music-0">
+      <div class="title">R U mine?</div>
+      <p class="text-justify mt-5">Último tópico do programa, Srta. Replay! Fico feliz que nossos caminhos tenham se cruzado depois de tanto tempo.</p>
+      <img src="https://media.giphy.com/media/JliAM7N6eaGIw/giphy.gif">
+      <div class="btn btn-primary my-5 font-weight-bold" id="music-n1">Next</div>
+    </div>
+    
+    <div class="card__content hide text-wrap" id="card-music-1">
+      <div class="title">Vou deixar aqui nossa playlist que podemos sempre completar</div>
+      <iframe src="https://open.spotify.com/embed/playlist/1VDR80jCix8YFyqTKW8QHI" width="500" height="400" frameborder="0" allowtransparency="true" allow="encrypted-media" class="mt-5"></iframe>
+      <div class="btn btn-primary my-5 font-weight-bold" id="music-n2">Next</div>
+    </div>
+    
+    <div class="card__content hide text-wrap" id="card-music-2">
+      <div class="title">Faixa Bônus</div>
+      <p class="text-justify mt-5">Escolhi essa pra deixar de especial enquanto tava programando pq identifiquei bastante, gata da minha vida. Feliz dia dos namorados! <i class="fas fa-heart"></i> </p>
+      <iframe src="https://open.spotify.com/embed/track/3NvJOofNuM9TmYgxCfavsN" width="300" height="380" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
+    </div>
+    
+  </div>
+
+    <!-- Gift Card -->
+    <div class="card card-gift hide m-3">
+
+      <div class="card__content text-wrap" id="card-gift-0">
+        <div class="title">Feliz nosso primeiro dia dos namorados</div>
+        <p class="text-justify mt-5">Aqui vai um presente para deixar marcado nosso primeiro dia dos namorados juntos, uma data especial combina com um presente especial para você, eu te amo muito minha linda.</p>
+        <img src="Presente.png">
+        <div class="btn btn-primary my-5 font-weight-bold" id="gift-n1">Next</div>
+      </div>
+      
+      <div class="card__content hide text-wrap" id="card-gift-1">
+        <!--<div class="title text-highlight">Também escolhi um lugar especial para você</div> -->
+        <div class="title">Também escolhi um lugar especial para você.</div>
+        <!--<p class="text-justify mt-5"></p>-->
+        <img src="db.png">
+      </div>
+      
+    </div>
+
+</div>
+<!-- partial -->
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js'></script><script  src="./script.js"></script>
+
+</body>
+</html>

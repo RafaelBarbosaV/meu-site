@@ -1,0 +1,93 @@
+p {
+  font-size: 1.2rem;
+}
+
+.text-highlight {
+  color: #fc2734;
+  font-weight: bold;
+}
+
+.bg {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #080808;
+  height: 100vh;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100vh;
+  height: 90vh;
+  background-color: #fff;
+  border-radius: 10px;
+}
+.card__content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 50px;
+}
+
+.title {
+  font-size: 2rem;
+  font-weight: bold;
+  text-align: center;
+  margin-top: 1rem;
+}
+
+.btn-primary {
+  background-color: #5bcbd8;
+  border-color: #5bcbd8;
+  width: 150px;
+}
+
+.btn-primary:hover {
+  background-color: #ff82c0;
+  border-color: #ff82c0;
+  transform: scale(1.1);
+}
+
+.hide {
+  display: none;
+}
+
+.show {
+  display: block;
+}
+
+input {
+  margin-top: 30px;
+}
+
+.fa-heart {
+  font-size: 30px;
+  animation: rotate 1.5s infinite;
+}
+
+.fas {
+  color: #fc2734;
+  font-size: 30px;
+}
+
+.fab {
+  color: #fc2734;
+  font-size: 40px;
+}
+
+.fas:hover, .fab:hover {
+  transform: scale(1.5);
+}
+
+@keyframes rotate {
+  0% {
+    transform: rotate(20deg);
+  }
+  100% {
+    transform: rotate(-20deg);
+  }
+}
